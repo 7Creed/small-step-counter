@@ -57,9 +57,11 @@ const CounterII = () => {
         </span>
         <span>{date.toDateString()}</span>
       </p>
-      {(count !== 0 || step !== 1) ? <div>
-        <button onClick={handleReset}>Reset</button>
-      </div> : null}
+      {count !== 0 || step !== 1 ? (
+        <div>
+          <button onClick={handleReset}>Reset</button>
+        </div>
+      ) : null}
     </div>
   );
 };
