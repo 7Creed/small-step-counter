@@ -90,3 +90,10 @@ h3 {
 .close:hover {
   color: #7950f2;
 }
+
+.box {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 7px;
+  background-color: #f7f7f7;
+}

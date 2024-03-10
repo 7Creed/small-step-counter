@@ -4,6 +4,7 @@ import "./index.css";
 import App from "./App";
 import Counter from "./Counter";
 import CounterII from "./CounterII";
+import TextExpander from "./TextExpander";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
@@ -11,5 +12,6 @@ root.render(
     <App />
     <Counter />
     <CounterII />
+    <TextExpander />
   </React.StrictMode>
 );
